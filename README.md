@@ -1,3 +1,4 @@
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-f059dc9a6f8d3a56e377f745f24479a46679e63a5d9fe6f495e02850cd0d8118.svg)](https://classroom.github.com/online_ide?assignment_repo_id=5961632&assignment_repo_type=AssignmentRepo)
 # Tutorial5: DOM objects and Events
 In this tutorial, you'll practice working with JS DOM objects and events while creating a tic-tac-toe game.
 The starter code of this tutorial has two files; one of them is an HTML document linked to the other file, which is a JavaScript file. Please keep the HTML file as it is and follow the instructions in the comments of the JS file to complete the game.
