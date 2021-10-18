@@ -6,6 +6,8 @@ if(nextPlayer != 'X' && nextPlayer != 'O')
     nextPlayer = 'X';
 
 // use the value stored in the nextPlayer variable to indicate who the next player is
+let nextPlayerlbl = document.getElementById('next-lbl');
+nextPlayerlbl.textContent = nextPlayer;
 
 //This call will create the buttons needed for the gameboard.
 createGameBoard();
@@ -46,6 +48,7 @@ function takeCell(event)
     else
         nextPlayer = 'X';
     
+    nextPlayerlbl.textContent = nextPlayer;
 
     // Check if the game is over
     if (isGameOver())
