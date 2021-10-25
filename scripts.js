@@ -1,7 +1,7 @@
 let nextPlayer; // takes a value of either 'X' or 'O' according to the game turns
 
 // initialize the game
-nextPlayer = prompt("Which player will you start as? X or O?");
+nextPlayer = prompt("Which player will you start as? X or O?").toUpperCase();
 if(nextPlayer != 'X' && nextPlayer != 'O')
     nextPlayer = 'X';
 
@@ -28,7 +28,7 @@ function createGameBoard()
 let btns = document.querySelectorAll('button');
 for (let i=0; i<btns.length; i++)
 {
-    btns[i].addEventListener('click', (event) => { takeCell(event)});
+    btns[i].addEventListener('click', takeCell);
 }
 
 // This function will be used to respond to a click event on any of the board buttons.
